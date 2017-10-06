@@ -1,0 +1,35 @@
+
+.btn
+{background-color:lightblue;
+color:white;
+margin-top:30px;}
+
+.btn:hover{
+    background-color:white;
+    color:lightblue;
+    border: solid 1px lightblue;
+    cursor:pointer;
+}
+
+.top{text-align: center;}
+
+img{
+    border-radius:300px;
+    margin-top:100px;
+    }
+h1,h2,h3{
+    text-align:center;
+}
+.mid{ background-color:lightgrey;
+color:black;
+padding-top:40px;
+padding-bottom:40px;
+margin-top:40px;
+margin-bottom:40px;}
+
+.image{
+    text-align: center;
+}
+.image img{
+    border:solid black 1px;
+}
