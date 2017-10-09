@@ -1,13 +1,15 @@
 
 .btn
-{background-color:lightblue;
+{background-color:grey;
 color:white;
-margin-top:30px;}
+border-radius:30px;
+margin-top:50px;
+margin-bottom:50px;}
 
 .btn:hover{
     background-color:white;
-    color:lightblue;
-    border: solid 1px lightblue;
+    color: grey;
+    border: solid 1px grey;
     cursor:pointer;
 }
 
@@ -17,19 +19,49 @@ img{
     border-radius:300px;
     margin-top:100px;
     }
-h1,h2,h3{
+h1,h2,h3,p{
     text-align:center;
 }
-.mid{ background-color:lightgrey;
+
+h1 p{
+    margin-top:10px;
+    color:grey;
+    font-weight: 100
+}
+.mid{
 color:black;
-padding-top:40px;
-padding-bottom:40px;
-margin-top:40px;
+padding-top:30px;
+padding-bottom:30px;
+margin-top:50px;
 margin-bottom:40px;}
 
-.image{
-    text-align: center;
-}
+.mid h2{
+    font-weight:100;
+    color: grey;}
+.mid p{font-weight:200;}
+
+.image{text-align: center;}
 .image img{
-    border:solid black 1px;
+    border:solid grey 1px;
+    background-color:white;
+    padding:12px;}
+
+.image img:hover{cursor: pointer;}
+.dropdown{width:50%;}
+.dropdown-toggle{
+    width:100%;
+    background-color:grey;
+    color:white;
+    border: white solid 1px;
+    font-weight:100;
+    height:40px;
+}
+
+.dropdown-menu{
+    width:100%;
+    font-size:10px;
+    background-color:whitesmoke;
+    border-radius: none;
+    padding-left:15px;
+    min-height: 200px;
 }
