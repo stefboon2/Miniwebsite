@@ -61,20 +61,15 @@ margin-bottom:50px;}
     font-size:10px;
     background-color:whitesmoke;}
 
-.dropdown-menu li{text-align:center;}
-
 .dropdown-menu li i{
     color:grey;
-    margin-left:50px;
-}
+    margin-left:100px;}
 
 .dropdown-menu li img{
     background-color:grey;
     border-radius:300px;
     margin-right:20px;
-margin-bottom:10px;}
-
-
+    margin-bottom:10px;}
 
 .dropdown-menu li img:hover{
     background-color:black;
