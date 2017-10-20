@@ -86,10 +86,8 @@ padding:10px;}
 
 .dropdown-menu li img:hover{
     background-color:black;
-    cursor:pointer;}
-
-
-
+    cursor:pointer;}    
+    
 @media (min-width: 992px) { 
 
         .dropdown-toggle{margin-top:50px;}
